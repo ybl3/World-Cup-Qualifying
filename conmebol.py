@@ -23,6 +23,8 @@ def conmebol_qualifying(teams, verbose=False):
     if verbose:
         print("- CONMEBOL Qualifying -")
     result = play_group(teams, verbose) # Simulate the group, results in dictionary
+    if verbose:
+        print(result)
     keys = list(result.keys()) # getting a list out of the keys (will stay in order)
     qualified = keys[:6] # Top 6 teams
     playoff = keys[6] # 7th placed team

@@ -1,210 +1,109 @@
-Brazil 1000
-Argentina 1000
-Canada 1000
-USA 1000
-Mexico 1000
-Uruguay 990
-Japan 979
-Colombia 977
-Spain 974
-Germany 972
-France 969
-Ecuador 966
-England 965
-Portugal 959
-Iran 957
-Netherlands 954
-SouthKorea 953
-Australia 938
-Belgium 918
-Italy 917
-Morocco 907
-Senegal 862
-NewZealand 847
+53
+- 1st Round UEFA Qualifying -
+Group A ['Switzerland', 'Serbia', 'Ireland', 'Bulgaria', 'Liechtenstein']
+['Switzerland', 'Serbia', 'Ireland', 'Bulgaria', 'Liechtenstein']
+Group B ['Denmark', 'Czechia', 'Georgia', 'FaroeIslands', 'Moldova']
+['Denmark', 'Czechia', 'Georgia', 'FaroeIslands', 'Moldova']
+Group C ['Croatia', 'Norway', 'Romania', 'Montenegro', 'Gibraltar']
+['Croatia', 'Norway', 'Romania', 'Montenegro', 'Gibraltar']
+Group D ['Netherlands', 'Sweden', 'Albania', 'Latvia', 'Malta']
+['Netherlands', 'Sweden', 'Albania', 'Latvia', 'Malta']
+Group E ['England', 'Poland', 'Kosovo', 'Belarus', 'Andorra']
+['England', 'Poland', 'Kosovo', 'Belarus', 'Andorra']
+Group F ['USA', 'Wales', 'NorthernIreland', 'Luxembourg']
+['USA', 'Wales', 'NorthernIreland', 'Luxembourg']
+Group G ['Germany', 'Turkey', 'Slovenia', 'Azerbaijan']
+['Germany', 'Turkey', 'Slovenia', 'Azerbaijan']
+Group H ['Italy', 'Ukraine', 'Iceland', 'Armenia']
+['Italy', 'Ukraine', 'Iceland', 'Armenia']
+Group I ['Belgium', 'Austria', 'Greece', 'Cyprus']
+['Belgium', 'Austria', 'Greece', 'Cyprus']
+Group J ['France', 'Slovakia', 'Finland', 'Lithuania']
+['France', 'Slovakia', 'Finland', 'Lithuania']
+Group K ['Spain', 'Hungary', 'Bosnia', 'Estonia']
+['Spain', 'Hungary', 'Bosnia', 'Estonia']
+Group L ['Portugal', 'Scotland', 'NorthMacedonia', 'Kazakhstan']
+['Portugal', 'Scotland', 'NorthMacedonia', 'Kazakhstan']
+Group A {'Switzerland': 24, 'Serbia': 13, 'Ireland': 11, 'Bulgaria': 10, 'Liechtenstein': 0}
+Group B {'Denmark': 20, 'Czechia': 11, 'Georgia': 10, 'Moldova': 8, 'FaroeIslands': 7}
+Group C {'Croatia': 17, 'Romania': 16, 'Norway': 14, 'Montenegro': 10, 'Gibraltar': 0}
+Group D {'Netherlands': 20, 'Albania': 17, 'Sweden': 12, 'Latvia': 7, 'Malta': 0}
+Group E {'England': 22, 'Poland': 15, 'Belarus': 11, 'Kosovo': 8, 'Andorra': 0}
+Group F {'USA': 14, 'Wales': 12, 'NorthernIreland': 7, 'Luxembourg': 0}
+Group G {'Turkey': 18, 'Germany': 12, 'Slovenia': 3, 'Azerbaijan': 3}
+Group H {'Italy': 18, 'Armenia': 9, 'Iceland': 4, 'Ukraine': 4}
+Group I {'Austria': 11, 'Belgium': 11, 'Greece': 7, 'Cyprus': 4}
+Group J {'France': 15, 'Finland': 12, 'Slovakia': 6, 'Lithuania': 3}
+Group K {'Spain': 15, 'Hungary': 11, 'Bosnia': 8, 'Estonia': 0}
+Group L {'Portugal': 18, 'Scotland': 7, 'Kazakhstan': 5, 'NorthMacedonia': 4}
+['Portugal', 'Switzerland', 'Italy', 'Turkey', 'England', 'Spain', 'France', 'USA', 'Denmark', 'Netherlands', 'Austria', 'Croatia'] qualify to World Cup
+['Finland', 'Germany', 'Wales', 'Hungary', 'Albania', 'Belgium', 'Romania', 'Armenia', 'Poland', 'Scotland', 'Serbia', 'Czechia'] advance to playoffs
+ - UEFA Qualifying Playoffs -
+['Finland', 'Germany', 'Wales', 'Hungary'] ['Belgium', 'Poland', 'Scotland', 'Serbia'] ['Czechia', 'Romania', 'Albania', 'Armenia']
+Czechia defeats Scotland on penalties
+Wales defeats Czechia 
+Wales qualifies
+Romania defeats Poland on penalties
+Germany defeats Romania 
+Germany qualifies
+Belgium defeats Albania 
+Belgium defeats Hungary 
+Belgium qualifies
+Serbia defeats Armenia 
+Serbia defeats Finland 
+Serbia qualifies
+['Wales', 'Germany', 'Belgium', 'Serbia'] qualify to World Cup
+Spain 979
+France 979
+Germany 970
+Portugal 960
+England 954
+Netherlands 947
+Italy 916
+Belgium 914
 Croatia 842
-Nigeria 820
-IvoryCoast 818
-Switzerland 812
-Egypt 794
-Uzbekistan 793
-Algeria 782
-Denmark 760
-Cameroon 759
-SaudiArabia 734
-Tunisia 717
-Paraguay 697
-Qatar 696
-Mali 670
-Panama 665
-Austria 627
-CostaRica 614
-Jamaica 579
-Poland 537
-Turkey 533
-Iraq 533
-UAE 516
-Jordan 504
-Serbia 496
-Ghana 483
-Sweden 456
-Ukraine 453
-SouthAfrica 444
-DRCongo 421
-Honduras 418
-Norway 417
-Curacao 341
-Czechia 336
-Venezuela 323
-Scotland 308
-Slovakia 298
-Hungary 298
-Wales 268
-BurkinaFaso 266
-Haiti 264
-Oman 247
-Romania 218
-Peru 213
-Guatemala 206
-Chile 188
-Gabon 177
-ElSalvador 144
-Guinea 137
-Trinidad&Tobago 134
-Suriname 119
-Bosnia 117
-Bolivia 105
-Ireland 101
-Palestine 101
-Bahrain 86
-Slovenia 84
-CapeVerde 82
-China 80
-Greece 76
-Albania 70
-Angola 68
-Nicaragua 59
-NewCaledonia 54
-Syria 51
-Uganda 44
-NorthernIreland 43
-Tajikistan 41
-Kosovo 39
-Iceland 39
-Tahiti 38
-NorthMacedonia 36
-SolomonIslands 36
-Indonesia 35
-Finland 33
-Fiji 30
-Sudan 30
-Guyana 28
-Kyrgyzstan 26
-Mozambique 25
-Kuwait 24
-Cuba 21
-PapuaNewGuinea 21
-NorthKorea 20
-Zambia 19
-DominicanRepublic 18
-Georgia 17
-GuineaBissau 16
-Benin 16
-Vietnam 16
-PuertoRico 15
-EquatorialGuinea 15
-Zimbabwe 15
-Libya 13
-Namibia 11
-Comoros 11
-Thailand 11
-Gambia 10
-Congo 10
-Tanzania 10
-Lebanon 10
-Montenegro 9
-Mauritania 9
-Malawi 9
-Madagascar 9
-Vanuatu 7
-SierraLeone 7
-Kenya 7
+Switzerland 799
+Denmark 764
+USA 603
+Turkey 519
+Poland 487
+Norway 435
+Ukraine 431
+Austria 429
+Serbia 424
+Sweden 417
+Czechia 295
+Slovakia 289
+Hungary 283
+Scotland 271
+Wales 249
+Romania 138
+Bosnia 123
+Ireland 95
+Slovenia 91
+Greece 86
+Albania 79
+NorthernIreland 41
+NorthMacedonia 37
+Finland 34
+Kosovo 34
+Iceland 28
+Georgia 19
+Montenegro 10
+Estonia 8
 Bulgaria 6
-Lithuania 6
-Belarus 6
-Armenia 6
-Togo 6
-Rwanda 6
-Estonia 5
-Azerbaijan 5
-Latvia 5
-Liberia 5
-Kazakhstan 4
-Cyprus 4
-Niger 4
-Bermuda 3
-Luxembourg 2
-CookIslands 2
-SouthSudan 2
-Burundi 2
-Botswana 2
-Lesotho 2
-Malaysia 2
-Chad 1
-CentralAfricanRepublic 1
-Philippines 1
+Lithuania 3
+Azerbaijan 3
+Belarus 2
+Cyprus 2
+Kazakhstan 2
+Armenia 1
+FaroeIslands 1
+Latvia 1
+Luxembourg 0
 Moldova 0
 Andorra 0
-FaroeIslands 0
-Liechtenstein 0
-Gibraltar 0
 Malta 0
-SanMarino 0
-Russia 0
-Belize 0
-CaymanIslands 0
-Bahamas 0
-Turks&CaicosIslands 0
-USVirginIslands 0
-BritishVirginIslands 0
-Anguilla 0
-StKitts&Nevis 0
-Antigua&Barbuda 0
-Montserrat 0
-Dominica 0
-StLucia 0
-StVincent&Grenadines 0
-Barbados 0
-Grenada 0
-Aruba 0
-AmericanSamoa 0
-Samoa 0
-Tonga 0
-Eritrea 0
-Djibouti 0
-Ethiopia 0
-SaoTome&Principe 0
-Somalia 0
-Seychelles 0
-Eswatini 0
-Mauritius 0
-Guam 0
-Macau 0
-Brunei 0
-Bhutan 0
-TimorLeste 0
-Mongolia 0
-Maldivies 0
-Pakistan 0
-Bangladesh 0
-SriLanka 0
-Laos 0
-Cambodia 0
-Nepal 0
-Myanmar 0
-Afghanistan 0
-ChineseTaipei 0
-Singapore 0
-Yemen 0
-HongKong 0
-Turkmenistan 0
-India 0
+Gibraltar 0
+Liechtenstein 0
+[['Portugal', 'Switzerland', 'Italy', 'Turkey', 'England', 'Spain', 'France', 'USA', 'Denmark', 'Netherlands', 'Austria', 'Croatia', 'Wales', 'Germany', 'Belgium', 'Serbia'], [{'Switzerland': 24, 'Serbia': 13, 'Ireland': 11, 'Bulgaria': 10, 'Liechtenstein': 0}, {'Denmark': 20, 'Czechia': 11, 'Georgia': 10, 'Moldova': 8, 'FaroeIslands': 7}, {'Croatia': 17, 'Romania': 16, 'Norway': 14, 'Montenegro': 10, 'Gibraltar': 0}, {'Netherlands': 20, 'Albania': 17, 'Sweden': 12, 'Latvia': 7, 'Malta': 0}, {'England': 22, 'Poland': 15, 'Belarus': 11, 'Kosovo': 8, 'Andorra': 0}, {'USA': 14, 'Wales': 12, 'NorthernIreland': 7, 'Luxembourg': 0}, {'Turkey': 18, 'Germany': 12, 'Slovenia': 3, 'Azerbaijan': 3}, {'Italy': 18, 'Armenia': 9, 'Iceland': 4, 'Ukraine': 4}, {'Austria': 11, 'Belgium': 11, 'Greece': 7, 'Cyprus': 4}, {'France': 15, 'Finland': 12, 'Slovakia': 6, 'Lithuania': 3}, {'Spain': 15, 'Hungary': 11, 'Bosnia': 8, 'Estonia': 0}, {'Portugal': 18, 'Scotland': 7, 'Kazakhstan': 5, 'NorthMacedonia': 4}], [['Wales', 'Czechia', 'Scotland'], ['Germany', 'Romania', 'Poland'], ['Belgium', 'Hungary', 'Albania'], ['Serbia', 'Finland', 'Armenia']]]

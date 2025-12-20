@@ -88,6 +88,13 @@ def world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofctea
     qualified += q
     return qualified
 
+# Change teams confederation to confed
+# Swaps confederations with lowest ranked team in desired confederation to keep number of teams equal
+# Takes in confederation dictionary which maps to lowest ranked team in the confederation
+def change_confed(team, confed, confedmap):
+    data[confedmap[confed]]["Confederation"] = data[team]["Confederation"]
+    data[team]["Confederation"] = confed
+
 
 def main():
     global data
@@ -99,6 +106,17 @@ def main():
             data[row['Team']] = row
             qualifications[row['Team']] = 0
     
+    # Focuses
+    focus = "USA"
+    confed = "UEFA"
+    confedmap = {"CONCACAF": "USVirginIslands",
+                 "CONMEBOL": "Bolivia",
+                 "UEFA": "SanMarino",
+                 "CAF": "Eritrea",
+                 "AFC": "Macau",
+                 "OFC": "AmericanSamoa"}
+    change_confed(focus, confed, confedmap)
+
     # team1 = "Kazakhstan"
     # team2 = "Bulgaria"
     # t1 = data[team1]['Rating']
@@ -121,11 +139,11 @@ def main():
     # print(gg)
     # print(ggh)
     # return 0
-    # ## UEFA ###
+    ### UEFA ###
     # uefa_teams, uefa_pots = uefa.get_uefa_teams()
     # print(len(uefa_teams))
-    # # uefa_qualified = uefa.uefa_qualifying(uefa_pots, True)
-    # # qualified_teams += uefa_qualified
+    # uefa_qualified = uefa.uefa_qualifying(uefa_pots, True)
+    # qualified_teams += uefa_qualified
     # focus = None
     # verbose = False
     # k = 1000
@@ -139,8 +157,8 @@ def main():
     # print(qualified_teams)    
     ### CONMEBOL ###
     # conmebol_teams = conmebol.get_conmebol_teams()
-    # # conmebol_qualified, conmebol_playoff = conmebol_qualifying(conmebol_teams, True)
-    # # print(conmebol_qualified, conmebol_playoff)
+    # conmebol_qualified, conmebol_playoff = conmebol.conmebol_qualifying(conmebol_teams, True)
+    # print(conmebol_qualified, conmebol_playoff)
     # k = 1000
     # q = conmebol.sim_conmebol_qualifying(conmebol_teams, k, verbose=False)
     # vals = list(q.values())
@@ -148,8 +166,8 @@ def main():
     ### CONCACAF ###
     # ccf = concacaf.get_concacaf_teams()
     # print(len(ccf))
-    # # c = concacaf.concacaf_qualifying(ccf, True)
-    # # print(c)
+    # c = concacaf.concacaf_qualifying(ccf, True)
+    # print(c)
     # k = 1000
     # q, p = concacaf.sim_concacaf_qualifying(ccf ,k)
     # # print(q)
@@ -159,8 +177,8 @@ def main():
     ### OFC ###
     # ofc_teams = ofc.get_ofc_teams()
     # print(len(ofc_teams))
-    # # ofc_qual = ofc.ofc_qualifying(ofc_teams, True)
-    # # print(ofc_qual)
+    # ofc_qual = ofc.ofc_qualifying(ofc_teams, True)
+    # print(ofc_qual)
     # k = 1000
     # q, p = ofc.sim_ofc_qualifying(ofc_teams, k)
     # for team in q:
@@ -178,7 +196,7 @@ def main():
     # afc_teams = afc.get_afc_teams()
     # print(len(afc_teams))
     # verbose=True
-    # verbose=False
+    # # verbose=False
     # q, p = afc.afc_qualifying(afc_teams, verbose)
     # k = 1000
     # q, p = afc.sim_afc_qualifying(afc_teams, k, False)
@@ -197,23 +215,27 @@ def main():
     # for team in icp:
     #     print(team, icp[team])
 
-    ccfteams = concacaf.get_concacaf_teams()
-    cmbteams = conmebol.get_conmebol_teams()
-    uefateams, uefapots = uefa.get_uefa_teams()
-    cafteams, cafpots = caf.get_caf_teams()
-    afcteams = afc.get_afc_teams()
-    ofcteams = ofc.get_ofc_teams()
 
-    for i in range(1000):
-        qualified = world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
-        for q in qualified:
-            qualifications[q] += 1
-    qualifications = {k: v for k, v in sorted(qualifications.items(), key=lambda item: item[1], reverse=True)}
-    for team in qualifications:
-        print(team, qualifications[team])
+    # ccfteams = concacaf.get_concacaf_teams()
+    # cmbteams = conmebol.get_conmebol_teams()
+    # uefateams, uefapots = uefa.get_uefa_teams()
+    # cafteams, cafpots = caf.get_caf_teams()
+    # afcteams = afc.get_afc_teams()
+    # ofcteams = ofc.get_ofc_teams()
+
+
+    # for i in range(100):
+    #     qualified = world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
+    #     for q in qualified:
+    #         qualifications[q] += 1
+    # qualifications = {k: v for k, v in sorted(qualifications.items(), key=lambda item: item[1], reverse=True)}
+    # for team in qualifications:
+    #     print(team, qualifications[team])
     # print("Qualified Teams:")
     # for q in qualified:
     #     print(q)
+
+    
 
 
 

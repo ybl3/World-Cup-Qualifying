@@ -80,11 +80,11 @@ def sim_concacaf_qualifying(teams, k, verbose=False):
     for i in range(k):
         if verbose:
             print("###### Sim", i, "######")
-        qualified, p1, p2 = concacaf_qualifying(teams, verbose)
+        qualified, p = concacaf_qualifying(teams, verbose)
         for q in qualified:
             concacaf[q] += 1
-        playoffs[p1] += 1
-        playoffs[p2] += 1
+        playoffs[p[0]] += 1
+        playoffs[p[1]] += 1
     concacaf = {k: v for k, v in sorted(concacaf.items(), key=lambda item: item[1], reverse=True)}
     playoffs = {k: v for k, v in sorted(playoffs.items(), key=lambda item: item[1], reverse=True)}
     return concacaf, playoffs
