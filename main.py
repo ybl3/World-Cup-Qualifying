@@ -28,8 +28,18 @@ def inter_continental_playoff(teams, verbose=False):
             path2.append(team)
             path2conf.append(data[team]["Confederation"])
         else: # team cannot go into path 2
-            path2.append(path1[2])
-            path1[2] = team
+            try:
+                path2.append(path1[2])
+                path1[2] = team
+            except:
+                print(path1)
+                print(path2)
+                print(pot2)
+                print(teams)
+                print(path1conf)
+                print(path2conf)
+                print(data)
+                return 1
     if verbose:
         print("Path 1:", path1)
         print("Path 2:", path2)
@@ -82,26 +92,53 @@ def world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofctea
     qualified.append(q)
     playoffs.append(ofcpo)
     ### Inter-Continental Playoffs ###
+    playoffs = sort_teams_by_ranking(playoffs)
     if verbose:
         print("##### Inter-Continental Playoffs Qualifying #####")
     q = inter_continental_playoff(playoffs, verbose)
     qualified += q
     return qualified
 
+# Sims the process of world cup qualifying k times, returns each team and the number of successful qualifications
+# takes in k, as well as each team in the world, returns the dictionary updated with the successful qualification counts
+def sim_world_cup_qualifying(k, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, verbose=False):
+    qualifications = {}
+    for team in data:
+        qualifications[team] = 0
+    for i in range(k):
+        qualified = world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
+        for q in qualified:
+            qualifications[q] += 1
+    qualifications = {k: v for k, v in sorted(qualifications.items(), key=lambda item: item[1], reverse=True)}
+    return qualifications
+    
+
 # Change teams confederation to confed
 # Swaps confederations with lowest ranked team in desired confederation to keep number of teams equal
 # Takes in confederation dictionary which maps to lowest ranked team in the confederation
 def change_confed(team, confed, confedmap):
+    if data[team]["Confederation"] == confed:
+        return
     data[confedmap[confed]]["Confederation"] = data[team]["Confederation"]
     data[team]["Confederation"] = confed
 
+# Reverts teams back to correct confederation
+def fix_confed(team, ogconfed):
+    data[team]["Confederation"] = ogconfed
+    data["USVirginIslands"]["Confederation"] = "CONCACAF"
+    data["Bolivia"]["Confederation"] = "CONMEBOL"
+    data["SanMarino"]["Confederation"] = "UEFA"
+    data["Eritrea"]["Confederation"] = "CAF"
+    data["Macau"]["Confederation"] = "AFC"
+    data["AmericanSamoa"]["Confederation"] = "OFC"
+    
 
 def main():
     global data
     qualified_teams = []
     qualifications = {}
     rankings = {}
-    filename = "data2.csv"
+    filename = "dataprevious.csv"
     with open(filename, 'r') as file:
         reader = csv.DictReader(file)
         for row in reader:
@@ -226,6 +263,10 @@ def main():
     # afcteams = afc.get_afc_teams()
     # ofcteams = ofc.get_ofc_teams()
 
+    # qualified = sim_world_cup_qualifying(1, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
+    # print(qualified)
+    # return 0
+
 
     # for i in range(100):
     #     qualified = world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
@@ -240,7 +281,44 @@ def main():
 
     
 
+    final_data = [
+        ['Team', 'CONCACAF', 'CONMEBOL', 'UEFA', 'CAF', 'AFC', 'OFC', 'Total'],
+    ]
 
+
+    confedmap = {"CONCACAF": "USVirginIslands",
+                 "CONMEBOL": "Bolivia",
+                 "UEFA": "SanMarino",
+                 "CAF": "Eritrea",
+                 "AFC": "Macau",
+                 "OFC": "AmericanSamoa"}
+    
+    confeds = list(confedmap.keys())
+    for team in data:
+        teamdata = [team]
+        total = 0
+        ogconfed = data[team]['Confederation']
+        for confed in confeds:
+            change_confed(team, confed, confedmap)
+            ccfteams = concacaf.get_concacaf_teams()
+            cmbteams = conmebol.get_conmebol_teams()
+            uefateams, uefapots = uefa.get_uefa_teams()
+            cafteams, cafpots = caf.get_caf_teams()
+            afcteams = afc.get_afc_teams()
+            ofcteams = ofc.get_ofc_teams()
+            quals = sim_world_cup_qualifying(100, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
+            teamdata.append(quals[team])
+            total += int(quals[team])
+            fix_confed(team, ogconfed)
+        teamdata.append(total)
+        final_data.append(teamdata)
+    print(data)
+
+
+    results_filename = "final_data_previous.csv"
+    with open(results_filename, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerows(final_data)
 
 
 
