@@ -100,22 +100,25 @@ def main():
     global data
     qualified_teams = []
     qualifications = {}
-    with open('data.csv', 'r') as file:
+    rankings = {}
+    filename = "data2.csv"
+    with open(filename, 'r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             data[row['Team']] = row
             qualifications[row['Team']] = 0
     
-    # Focuses
-    focus = "USA"
-    confed = "UEFA"
-    confedmap = {"CONCACAF": "USVirginIslands",
-                 "CONMEBOL": "Bolivia",
-                 "UEFA": "SanMarino",
-                 "CAF": "Eritrea",
-                 "AFC": "Macau",
-                 "OFC": "AmericanSamoa"}
-    change_confed(focus, confed, confedmap)
+
+    # # Focuses
+    # focus = "USA"
+    # confed = "UEFA"
+    # confedmap = {"CONCACAF": "USVirginIslands",
+    #              "CONMEBOL": "Bolivia",
+    #              "UEFA": "SanMarino",
+    #              "CAF": "Eritrea",
+    #              "AFC": "Macau",
+    #              "OFC": "AmericanSamoa"}
+    # change_confed(focus, confed, confedmap)
 
     # team1 = "Kazakhstan"
     # team2 = "Bulgaria"
