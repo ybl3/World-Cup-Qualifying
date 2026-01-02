@@ -1,1 +1,245 @@
-{'Afghanistan': {'Team': 'Afghanistan', 'Confederation': 'AFC', 'Ranking': '161', 'Rating': '19', 'Home': '15'}, 'Albania': {'Team': 'Albania', 'Confederation': 'UEFA', 'Ranking': '63', 'Rating': '56', 'Home': '40'}, 'Algeria': {'Team': 'Algeria', 'Confederation': 'CAF', 'Ranking': '34', 'Rating': '67', 'Home': '49'}, 'AmericanSamoa': {'Team': 'AmericanSamoa', 'Confederation': 'OFC', 'Ranking': '183', 'Rating': '2', 'Home': '3'}, 'Andorra': {'Team': 'Andorra', 'Confederation': 'UEFA', 'Ranking': '171', 'Rating': '21', 'Home': '11'}, 'Angola': {'Team': 'Angola', 'Confederation': 'CAF', 'Ranking': '88', 'Rating': '47', 'Home': '55'}, 'Anguilla': {'Team': 'Anguilla', 'Confederation': 'CONCACAF', 'Ranking': '208', 'Rating': '4', 'Home': '4'}, 'Antigua&Barbuda': {'Team': 'Antigua&Barbuda', 'Confederation': 'CONCACAF', 'Ranking': '164', 'Rating': '15', 'Home': '17'}, 'Argentina': {'Team': 'Argentina', 'Confederation': 'CONMEBOL', 'Ranking': '2', 'Rating': '91', 'Home': '42'}, 'Armenia': {'Team': 'Armenia', 'Confederation': 'UEFA', 'Ranking': '105', 'Rating': '42', 'Home': '38'}, 'Aruba': {'Team': 'Aruba', 'Confederation': 'CONCACAF', 'Ranking': '190', 'Rating': '18', 'Home': '15'}, 'Australia': {'Team': 'Australia', 'Confederation': 'AFC', 'Ranking': '26', 'Rating': '66', 'Home': '27'}, 'Austria': {'Team': 'Austria', 'Confederation': 'UEFA', 'Ranking': '24', 'Rating': '69', 'Home': '23'}, 'Azerbaijan': {'Team': 'Azerbaijan', 'Confederation': 'UEFA', 'Ranking': '126', 'Rating': '39', 'Home': '39'}, 'Bahamas': {'Team': 'Bahamas', 'Confederation': 'CONCACAF', 'Ranking': '205', 'Rating': '3', 'Home': '4'}, 'Bahrain': {'Team': 'Bahrain', 'Confederation': 'AFC', 'Ranking': '89', 'Rating': '43', 'Home': '21'}, 'Bangladesh': {'Team': 'Bangladesh', 'Confederation': 'AFC', 'Ranking': '179', 'Rating': '19', 'Home': '14'}, 'Barbados': {'Team': 'Barbados', 'Confederation': 'CONCACAF', 'Ranking': '177', 'Rating': '18', 'Home': '16'}, 'Belarus': {'Team': 'Belarus', 'Confederation': 'UEFA', 'Ranking': '98', 'Rating': '41', 'Home': '31'}, 'Belgium': {'Team': 'Belgium', 'Confederation': 'UEFA', 'Ranking': '8', 'Rating': '80', 'Home': '21'}, 'Belize': {'Team': 'Belize', 'Confederation': 'CONCACAF', 'Ranking': '180', 'Rating': '9', 'Home': '8'}, 'Benin': {'Team': 'Benin', 'Confederation': 'CAF', 'Ranking': '91', 'Rating': '44', 'Home': '51'}, 'Bermuda': {'Team': 'Bermuda', 'Confederation': 'CONCACAF', 'Ranking': '168', 'Rating': '24', 'Home': '20'}, 'Bhutan': {'Team': 'Bhutan', 'Confederation': 'AFC', 'Ranking': '191', 'Rating': '6', 'Home': '5'}, 'Bolivia': {'Team': 'Bolivia', 'Confederation': 'CONMEBOL', 'Ranking': '76', 'Rating': '49', 'Home': '148'}, 'Bosnia': {'Team': 'Bosnia', 'Confederation': 'UEFA', 'Ranking': '71', 'Rating': '59', 'Home': '40'}, 'Botswana': {'Team': 'Botswana', 'Confederation': 'CAF', 'Ranking': '137', 'Rating': '40', 'Home': '49'}, 'Brazil': {'Team': 'Brazil', 'Confederation': 'CONMEBOL', 'Ranking': '5', 'Rating': '88', 'Home': '47'}, 'BritishVirginIslands': {'Team': 'BritishVirginIslands', 'Confederation': 'CONCACAF', 'Ranking': '207', 'Rating': '4', 'Home': '5'}, 'Brunei': {'Team': 'Brunei', 'Confederation': 'AFC', 'Ranking': '187', 'Rating': '9', 'Home': '7'}, 'Bulgaria': {'Team': 'Bulgaria', 'Confederation': 'UEFA', 'Ranking': '87', 'Rating': '43', 'Home': '38'}, 'BurkinaFaso': {'Team': 'BurkinaFaso', 'Confederation': 'CAF', 'Ranking': '62', 'Rating': '57', 'Home': '53'}, 'Burundi': {'Team': 'Burundi', 'Confederation': 'CAF', 'Ranking': '144', 'Rating': '39', 'Home': '46'}, 'Cambodia': {'Team': 'Cambodia', 'Confederation': 'AFC', 'Ranking': '178', 'Rating': '11', 'Home': '10'}, 'Cameroon': {'Team': 'Cameroon', 'Confederation': 'CAF', 'Ranking': '57', 'Rating': '65', 'Home': '55'}, 'Canada': {'Team': 'Canada', 'Confederation': 'CONCACAF', 'Ranking': '27', 'Rating': '61', 'Home': '37'}, 'CapeVerde': {'Team': 'CapeVerde', 'Confederation': 'CAF', 'Ranking': '67', 'Rating': '49', 'Home': '53'}, 'CaymanIslands': {'Team': 'CaymanIslands', 'Confederation': 'CONCACAF', 'Ranking': '194', 'Rating': '7', 'Home': '5'}, 'CentralAfricanRepublic': {'Team': 'CentralAfricanRepublic', 'Confederation': 'CAF', 'Ranking': '138', 'Rating': '34', 'Home': '45'}, 'Chad': {'Team': 'Chad', 'Confederation': 'CAF', 'Ranking': '176', 'Rating': '32', 'Home': '45'}, 'Chile': {'Team': 'Chile', 'Confederation': 'CONMEBOL', 'Ranking': '52', 'Rating': '54', 'Home': '46'}, 'China': {'Team': 'China', 'Confederation': 'AFC', 'Ranking': '92', 'Rating': '44', 'Home': '22'}, 'ChineseTaipei': {'Team': 'ChineseTaipei', 'Confederation': 'AFC', 'Ranking': '173', 'Rating': '13', 'Home': '9'}, 'Colombia': {'Team': 'Colombia', 'Confederation': 'CONMEBOL', 'Ranking': '13', 'Rating': '75', 'Home': '54'}, 'Comoros': {'Team': 'Comoros', 'Confederation': 'CAF', 'Ranking': '108', 'Rating': '43', 'Home': '44'}, 'Congo': {'Team': 'Congo', 'Confederation': 'CAF', 'Ranking': '133', 'Rating': '40', 'Home': '45'}, 'CookIslands': {'Team': 'CookIslands', 'Confederation': 'OFC', 'Ranking': '185', 'Rating': '2', 'Home': '5'}, 'CostaRica': {'Team': 'CostaRica', 'Confederation': 'CONCACAF', 'Ranking': '49', 'Rating': '52', 'Home': '48'}, 'Croatia': {'Team': 'Croatia', 'Confederation': 'UEFA', 'Ranking': '10', 'Rating': '76', 'Home': '36'}, 'Cuba': {'Team': 'Cuba', 'Confederation': 'CONCACAF', 'Ranking': '165', 'Rating': '32', 'Home': '30'}, 'Curacao': {'Team': 'Curacao', 'Confederation': 'CONCACAF', 'Ranking': '81', 'Rating': '44', 'Home': '49'}, 'Cyprus': {'Team': 'Cyprus', 'Confederation': 'UEFA', 'Ranking': '127', 'Rating': '42', 'Home': '37'}, 'CzechRepublic': {'Team': 'CzechRepublic', 'Confederation': 'UEFA', 'Ranking': '44', 'Rating': '63', 'Home': '30'}, 'Denmark': {'Team': 'Denmark', 'Confederation': 'UEFA', 'Ranking': '21', 'Rating': '71', 'Home': '26'}, 'Djibouti': {'Team': 'Djibouti', 'Confederation': 'CAF', 'Ranking': '195', 'Rating': '19', 'Home': '25'}, 'Dominica': {'Team': 'Dominica', 'Confederation': 'CONCACAF', 'Ranking': '182', 'Rating': '17', 'Home': '15'}, 'DominicanRepublic': {'Team': 'DominicanRepublic', 'Confederation': 'CONCACAF', 'Ranking': '142', 'Rating': '31', 'Home': '29'}, 'DRCongo': {'Team': 'DRCongo', 'Confederation': 'CAF', 'Ranking': '56', 'Rating': '61', 'Home': '56'}, 'Ecuador': {'Team': 'Ecuador', 'Confederation': 'CONMEBOL', 'Ranking': '23', 'Rating': '74', 'Home': '54'}, 'Egypt': {'Team': 'Egypt', 'Confederation': 'CAF', 'Ranking': '35', 'Rating': '67', 'Home': '51'}, 'ElSalvador': {'Team': 'ElSalvador', 'Confederation': 'CONCACAF', 'Ranking': '99', 'Rating': '40', 'Home': '44'}, 'England': {'Team': 'England', 'Confederation': 'UEFA', 'Ranking': '4', 'Rating': '89', 'Home': '19'}, 'EquatorialGuinea': {'Team': 'EquatorialGuinea', 'Confederation': 'CAF', 'Ranking': '96', 'Rating': '44', 'Home': '41'}, 'Eritrea': {'Team': 'Eritrea', 'Confederation': 'CAF', 'Ranking': '210', 'Rating': '25', 'Home': '25'}, 'Estonia': {'Team': 'Estonia', 'Confederation': 'UEFA', 'Ranking': '129', 'Rating': '40', 'Home': '27'}, 'Eswatini': {'Team': 'Eswatini', 'Confederation': 'CAF', 'Ranking': '158', 'Rating': '33', 'Home': '42'}, 'Ethiopia': {'Team': 'Ethiopia', 'Confederation': 'CAF', 'Ranking': '146', 'Rating': '35', 'Home': '47'}, 'FaroeIslands': {'Team': 'FaroeIslands', 'Confederation': 'UEFA', 'Ranking': '124', 'Rating': '33', 'Home': '36'}, 'Fiji': {'Team': 'Fiji', 'Confederation': 'OFC', 'Ranking': '154', 'Rating': '13', 'Home': '21'}, 'Finland': {'Team': 'Finland', 'Confederation': 'UEFA', 'Ranking': '75', 'Rating': '51', 'Home': '26'}, 'France': {'Team': 'France', 'Confederation': 'UEFA', 'Ranking': '3', 'Rating': '90', 'Home': '21'}, 'Gabon': {'Team': 'Gabon', 'Confederation': 'CAF', 'Ranking': '77', 'Rating': '55', 'Home': '52'}, 'Gambia': {'Team': 'Gambia', 'Confederation': 'CAF', 'Ranking': '115', 'Rating': '42', 'Home': '46'}, 'Georgia': {'Team': 'Georgia', 'Confederation': 'UEFA', 'Ranking': '73', 'Rating': '46', 'Home': '39'}, 'Germany': {'Team': 'Germany', 'Confederation': 'UEFA', 'Ranking': '9', 'Rating': '87', 'Home': '22'}, 'Ghana': {'Team': 'Ghana', 'Confederation': 'CAF', 'Ranking': '72', 'Rating': '64', 'Home': '51'}, 'Gibraltar': {'Team': 'Gibraltar', 'Confederation': 'UEFA', 'Ranking': '201', 'Rating': '16', 'Home': '10'}, 'Greece': {'Team': 'Greece', 'Confederation': 'UEFA', 'Ranking': '46', 'Rating': '56', 'Home': '40'}, 'Grenada': {'Team': 'Grenada', 'Confederation': 'CONCACAF', 'Ranking': '163', 'Rating': '22', 'Home': '20'}, 'Guam': {'Team': 'Guam', 'Confederation': 'AFC', 'Ranking': '200', 'Rating': '7', 'Home': '5'}, 'Guatemala': {'Team': 'Guatemala', 'Confederation': 'CONCACAF', 'Ranking': '93', 'Rating': '43', 'Home': '45'}, 'Guinea': {'Team': 'Guinea', 'Confederation': 'CAF', 'Ranking': '80', 'Rating': '52', 'Home': '49'}, 'GuineaBissau': {'Team': 'GuineaBissau', 'Confederation': 'CAF', 'Ranking': '132', 'Rating': '41', 'Home': '46'}, 'Guyana': {'Team': 'Guyana', 'Confederation': 'CONCACAF', 'Ranking': '150', 'Rating': '32', 'Home': '36'}, 'Haiti': {'Team': 'Haiti', 'Confederation': 'CONCACAF', 'Ranking': '83', 'Rating': '45', 'Home': '30'}, 'Honduras': {'Team': 'Honduras', 'Confederation': 'CONCACAF', 'Ranking': '65', 'Rating': '49', 'Home': '48'}, 'HongKong': {'Team': 'HongKong', 'Confederation': 'AFC', 'Ranking': '152', 'Rating': '23', 'Home': '11'}, 'Hungary': {'Team': 'Hungary', 'Confederation': 'UEFA', 'Ranking': '40', 'Rating': '62', 'Home': '35'}, 'Iceland': {'Team': 'Iceland', 'Confederation': 'UEFA', 'Ranking': '74', 'Rating': '51', 'Home': '32'}, 'India': {'Team': 'India', 'Confederation': 'AFC', 'Ranking': '141', 'Rating': '23', 'Home': '21'}, 'Indonesia': {'Team': 'Indonesia', 'Confederation': 'AFC', 'Ranking': '121', 'Rating': '41', 'Home': '38'}, 'Iraq': {'Team': 'Iraq', 'Confederation': 'AFC', 'Ranking': '58', 'Rating': '53', 'Home': '42'}, 'Iran': {'Team': 'Iran', 'Confederation': 'AFC', 'Ranking': '20', 'Rating': '69', 'Home': '39'}, 'Ireland': {'Team': 'Ireland', 'Confederation': 'UEFA', 'Ranking': '59', 'Rating': '57', 'Home': '25'}, 'Italy': {'Team': 'Italy', 'Confederation': 'UEFA', 'Ranking': '12', 'Rating': '82', 'Home': '23'}, 'IvoryCoast': {'Team': 'IvoryCoast', 'Confederation': 'CAF', 'Ranking': '42', 'Rating': '70', 'Home': '52'}, 'Jamaica': {'Team': 'Jamaica', 'Confederation': 'CONCACAF', 'Ranking': '70', 'Rating': '50', 'Home': '49'}, 'Japan': {'Team': 'Japan', 'Confederation': 'AFC', 'Ranking': '18', 'Rating': '72', 'Home': '23'}, 'Jordan': {'Team': 'Jordan', 'Confederation': 'AFC', 'Ranking': '64', 'Rating': '54', 'Home': '39'}, 'Kazakhstan': {'Team': 'Kazakhstan', 'Confederation': 'UEFA', 'Ranking': '113', 'Rating': '41', 'Home': '42'}, 'Kenya': {'Team': 'Kenya', 'Confederation': 'CAF', 'Ranking': '112', 'Rating': '40', 'Home': '48'}, 'Kosovo': {'Team': 'Kosovo', 'Confederation': 'UEFA', 'Ranking': '79', 'Rating': '48', 'Home': '40'}, 'Kuwait': {'Team': 'Kuwait', 'Confederation': 'AFC', 'Ranking': '134', 'Rating': '38', 'Home': '24'}, 'Kyrgyzstan': {'Team': 'Kyrgyzstan', 'Confederation': 'AFC', 'Ranking': '103', 'Rating': '38', 'Home': '38'}, 'Laos': {'Team': 'Laos', 'Confederation': 'AFC', 'Ranking': '189', 'Rating': '11', 'Home': '7'}, 'Latvia': {'Team': 'Latvia', 'Confederation': 'UEFA', 'Ranking': '139', 'Rating': '39', 'Home': '33'}, 'Lebanon': {'Team': 'Lebanon', 'Confederation': 'AFC', 'Ranking': '107', 'Rating': '36', 'Home': '33'}, 'Lesotho': {'Team': 'Lesotho', 'Confederation': 'CAF', 'Ranking': '143', 'Rating': '35', 'Home': '46'}, 'Liberia': {'Team': 'Liberia', 'Confederation': 'CAF', 'Ranking': '140', 'Rating': '37', 'Home': '45'}, 'Libya': {'Team': 'Libya', 'Confederation': 'CAF', 'Ranking': '110', 'Rating': '42', 'Home': '47'}, 'Liechtenstein': {'Team': 'Liechtenstein', 'Confederation': 'UEFA', 'Ranking': '204', 'Rating': '16', 'Home': '10'}, 'Lithuania': {'Team': 'Lithuania', 'Confederation': 'UEFA', 'Ranking': '145', 'Rating': '41', 'Home': '31'}, 'Luxembourg': {'Team': 'Luxembourg', 'Confederation': 'UEFA', 'Ranking': '102', 'Rating': '37', 'Home': '22'}, 'Macau': {'Team': 'Macau', 'Confederation': 'AFC', 'Ranking': '192', 'Rating': '5', 'Home': '5'}, 'Madagascar': {'Team': 'Madagascar', 'Confederation': 'CAF', 'Ranking': '104', 'Rating': '43', 'Home': '47'}, 'Malawi': {'Team': 'Malawi', 'Confederation': 'CAF', 'Ranking': '125', 'Rating': '40', 'Home': '48'}, 'Malaysia': {'Team': 'Malaysia', 'Confederation': 'AFC', 'Ranking': '120', 'Rating': '34', 'Home': '30'}, 'Maldives': {'Team': 'Maldives', 'Confederation': 'AFC', 'Ranking': '172', 'Rating': '12', 'Home': '8'}, 'Mali': {'Team': 'Mali', 'Confederation': 'CAF', 'Ranking': '53', 'Rating': '59', 'Home': '52'}, 'Malta': {'Team': 'Malta', 'Confederation': 'UEFA', 'Ranking': '160', 'Rating': '22', 'Home': '25'}, 'Mauritania': {'Team': 'Mauritania', 'Confederation': 'CAF', 'Ranking': '114', 'Rating': '42', 'Home': '48'}, 'Mauritius': {'Team': 'Mauritius', 'Confederation': 'CAF', 'Ranking': '175', 'Rating': '26', 'Home': '26'}, 'Mexico': {'Team': 'Mexico', 'Confederation': 'CONCACAF', 'Ranking': '15', 'Rating': '68', 'Home': '42'}, 'Moldova': {'Team': 'Moldova', 'Confederation': 'UEFA', 'Ranking': '157', 'Rating': '30', 'Home': '32'}, 'Mongolia': {'Team': 'Mongolia', 'Confederation': 'AFC', 'Ranking': '184', 'Rating': '10', 'Home': '8'}, 'Montenegro': {'Team': 'Montenegro', 'Confederation': 'UEFA', 'Ranking': '82', 'Rating': '44', 'Home': '38'}, 'Montserrat': {'Team': 'Montserrat', 'Confederation': 'CONCACAF', 'Ranking': '174', 'Rating': '10', 'Home': '8'}, 'Morocco': {'Team': 'Morocco', 'Confederation': 'CAF', 'Ranking': '11', 'Rating': '73', 'Home': '49'}, 'Mozambique': {'Team': 'Mozambique', 'Confederation': 'CAF', 'Ranking': '101', 'Rating': '46', 'Home': '53'}, 'Myanmar': {'Team': 'Myanmar', 'Confederation': 'AFC', 'Ranking': '162', 'Rating': '17', 'Home': '14'}, 'Namibia': {'Team': 'Namibia', 'Confederation': 'CAF', 'Ranking': '117', 'Rating': '42', 'Home': '48'}, 'Nepal': {'Team': 'Nepal', 'Confederation': 'AFC', 'Ranking': '181', 'Rating': '14', 'Home': '8'}, 'Netherlands': {'Team': 'Netherlands', 'Confederation': 'UEFA', 'Ranking': '7', 'Rating': '85', 'Home': '21'}, 'NewCaledonia': {'Team': 'NewCaledonia', 'Confederation': 'OFC', 'Ranking': '149', 'Rating': '21', 'Home': '22'}, 'NewZealand': {'Team': 'NewZealand', 'Confederation': 'OFC', 'Ranking': '86', 'Rating': '54', 'Home': '31'}, 'Nicaragua': {'Team': 'Nicaragua', 'Confederation': 'CONCACAF', 'Ranking': '131', 'Rating': '34', 'Home': '40'}, 'Niger': {'Team': 'Niger', 'Confederation': 'CAF', 'Ranking': '109', 'Rating': '38', 'Home': '48'}, 'Nigeria': {'Team': 'Nigeria', 'Confederation': 'CAF', 'Ranking': '38', 'Rating': '68', 'Home': '51'}, 'NorthKorea': {'Team': 'NorthKorea', 'Confederation': 'AFC', 'Ranking': '118', 'Rating': '38', 'Home': '24'}, 'NorthMacedonia': {'Team': 'NorthMacedonia', 'Confederation': 'UEFA', 'Ranking': '66', 'Rating': '48', 'Home': '40'}, 'NorthernIreland': {'Team': 'NorthernIreland', 'Confederation': 'UEFA', 'Ranking': '69', 'Rating': '50', 'Home': '25'}, 'Norway': {'Team': 'Norway', 'Confederation': 'UEFA', 'Ranking': '29', 'Rating': '69', 'Home': '25'}, 'Oman': {'Team': 'Oman', 'Confederation': 'AFC', 'Ranking': '78', 'Rating': '47', 'Home': '29'}, 'Pakistan': {'Team': 'Pakistan', 'Confederation': 'AFC', 'Ranking': '198', 'Rating': '16', 'Home': '14'}, 'Palestine': {'Team': 'Palestine', 'Confederation': 'AFC', 'Ranking': '94', 'Rating': '45', 'Home': '24'}, 'Panama': {'Team': 'Panama', 'Confederation': 'CONCACAF', 'Ranking': '30', 'Rating': '53', 'Home': '47'}, 'PapuaNewGuinea': {'Team': 'PapuaNewGuinea', 'Confederation': 'OFC', 'Ranking': '169', 'Rating': '12', 'Home': '15'}, 'Paraguay': {'Team': 'Paraguay', 'Confederation': 'CONMEBOL', 'Ranking': '39', 'Rating': '64', 'Home': '49'}, 'Peru': {'Team': 'Peru', 'Confederation': 'CONMEBOL', 'Ranking': '51', 'Rating': '55', 'Home': '56'}, 'Philippines': {'Team': 'Philippines', 'Confederation': 'AFC', 'Ranking': '135', 'Rating': '33', 'Home': '24'}, 'Poland': {'Team': 'Poland', 'Confederation': 'UEFA', 'Ranking': '31', 'Rating': '68', 'Home': '34'}, 'Portugal': {'Team': 'Portugal', 'Confederation': 'UEFA', 'Ranking': '6', 'Rating': '86', 'Home': '24'}, 'PuertoRico': {'Team': 'PuertoRico', 'Confederation': 'CONCACAF', 'Ranking': '155', 'Rating': '28', 'Home': '27'}, 'Qatar': {'Team': 'Qatar', 'Confederation': 'AFC', 'Ranking': '54', 'Rating': '55', 'Home': '27'}, 'Romania': {'Team': 'Romania', 'Confederation': 'UEFA', 'Ranking': '47', 'Rating': '60', 'Home': '39'}, 'Russia': {'Team': 'Russia', 'Confederation': 'NA', 'Ranking': '33', 'Rating': '66', 'Home': '38'}, 'Rwanda': {'Team': 'Rwanda', 'Confederation': 'CAF', 'Ranking': '130', 'Rating': '39', 'Home': '47'}, 'Samoa': {'Team': 'Samoa', 'Confederation': 'OFC', 'Ranking': '186', 'Rating': '3', 'Home': '5'}, 'SaoTome&Principe': {'Team': 'SaoTome&Principe', 'Confederation': 'CAF', 'Ranking': '188', 'Rating': '15', 'Home': '11'}, 'SanMarino': {'Team': 'SanMarino', 'Confederation': 'UEFA', 'Ranking': '209', 'Rating': '15', 'Home': '10'}, 'SaudiArabia': {'Team': 'SaudiArabia', 'Confederation': 'AFC', 'Ranking': '60', 'Rating': '58', 'Home': '25'}, 'Scotland': {'Team': 'Scotland', 'Confederation': 'UEFA', 'Ranking': '36', 'Rating': '62', 'Home': '26'}, 'Senegal': {'Team': 'Senegal', 'Confederation': 'CAF', 'Ranking': '19', 'Rating': '72', 'Home': '53'}, 'Serbia': {'Team': 'Serbia', 'Confederation': 'UEFA', 'Ranking': '37', 'Rating': '68', 'Home': '39'}, 'Seychelles': {'Team': 'Seychelles', 'Confederation': 'CAF', 'Ranking': '202', 'Rating': '14', 'Home': '11'}, 'SierraLeone': {'Team': 'SierraLeone', 'Confederation': 'CAF', 'Ranking': '119', 'Rating': '41', 'Home': '48'}, 'Singapore': {'Team': 'Singapore', 'Confederation': 'AFC', 'Ranking': '147', 'Rating': '24', 'Home': '10'}, 'Slovakia': {'Team': 'Slovakia', 'Confederation': 'UEFA', 'Ranking': '45', 'Rating': '63', 'Home': '32'}, 'Slovenia': {'Team': 'Slovenia', 'Confederation': 'UEFA', 'Ranking': '55', 'Rating': '56', 'Home': '33'}, 'SolomonIslands': {'Team': 'SolomonIslands', 'Confederation': 'OFC', 'Ranking': '151', 'Rating': '15', 'Home': '23'}, 'Somalia': {'Team': 'Somalia', 'Confederation': 'CAF', 'Ranking': '199', 'Rating': '27', 'Home': '25'}, 'SouthAfrica': {'Team': 'SouthAfrica', 'Confederation': 'CAF', 'Ranking': '61', 'Rating': '62', 'Home': '51'}, 'SouthKorea': {'Team': 'SouthKorea', 'Confederation': 'AFC', 'Ranking': '22', 'Rating': '67', 'Home': '22'}, 'SouthSudan': {'Team': 'SouthSudan', 'Confederation': 'CAF', 'Ranking': '167', 'Rating': '30', 'Home': '36'}, 'Spain': {'Team': 'Spain', 'Confederation': 'UEFA', 'Ranking': '1', 'Rating': '92', 'Home': '25'}, 'SriLanka': {'Team': 'SriLanka', 'Confederation': 'AFC', 'Ranking': '193', 'Rating': '14', 'Home': '10'}, 'StKitts&Nevis': {'Team': 'StKitts&Nevis', 'Confederation': 'CONCACAF', 'Ranking': '153', 'Rating': '16', 'Home': '17'}, 'StLucia': {'Team': 'StLucia', 'Confederation': 'CONCACAF', 'Ranking': '166', 'Rating': '17', 'Home': '15'}, 'StVincent&Grenadines': {'Team': 'StVincent&Grenadines', 'Confederation': 'CONCACAF', 'Ranking': '170', 'Rating': '20', 'Home': '17'}, 'Sudan': {'Team': 'Sudan', 'Confederation': 'CAF', 'Ranking': '116', 'Rating': '43', 'Home': '51'}, 'Suriname': {'Team': 'Suriname', 'Confederation': 'CONCACAF', 'Ranking': '122', 'Rating': '41', 'Home': '40'}, 'Sweden': {'Team': 'Sweden', 'Confederation': 'UEFA', 'Ranking': '43', 'Rating': '67', 'Home': '22'}, 'Switzerland': {'Team': 'Switzerland', 'Confederation': 'UEFA', 'Ranking': '17', 'Rating': '73', 'Home': '23'}, 'Syria': {'Team': 'Syria', 'Confederation': 'AFC', 'Ranking': '85', 'Rating': '42', 'Home': '37'}, 'Tahiti': {'Team': 'Tahiti', 'Confederation': 'OFC', 'Ranking': '156', 'Rating': '16', 'Home': '18'}, 'Tajikistan': {'Team': 'Tajikistan', 'Confederation': 'AFC', 'Ranking': '100', 'Rating': '39', 'Home': '37'}, 'Tanzania': {'Team': 'Tanzania', 'Confederation': 'CAF', 'Ranking': '111', 'Rating': '44', 'Home': '50'}, 'Thailand': {'Team': 'Thailand', 'Confederation': 'AFC', 'Ranking': '95', 'Rating': '35', 'Home': '30'}, 'TimorLeste': {'Team': 'TimorLeste', 'Confederation': 'AFC', 'Ranking': '197', 'Rating': '8', 'Home': '5'}, 'Togo': {'Team': 'Togo', 'Confederation': 'CAF', 'Ranking': '123', 'Rating': '39', 'Home': '45'}, 'Tonga': {'Team': 'Tonga', 'Confederation': 'OFC', 'Ranking': '196', 'Rating': '3', 'Home': '4'}, 'Trinidad&Tobago': {'Team': 'Trinidad&Tobago', 'Confederation': 'CONCACAF', 'Ranking': '97', 'Rating': '38', 'Home': '45'}, 'Tunisia': {'Team': 'Tunisia', 'Confederation': 'CAF', 'Ranking': '41', 'Rating': '65', 'Home': '46'}, 'Turkmenistan': {'Team': 'Turkmenistan', 'Confederation': 'AFC', 'Ranking': '136', 'Rating': '27', 'Home': '26'}, 'Turks&CaicosIslands': {'Team': 'Turks&CaicosIslands', 'Confederation': 'CONCACAF', 'Ranking': '203', 'Rating': '3', 'Home': '4'}, 'Turkey': {'Team': 'Turkey', 'Confederation': 'UEFA', 'Ranking': '25', 'Rating': '70', 'Home': '40'}, 'Uganda': {'Team': 'Uganda', 'Confederation': 'CAF', 'Ranking': '84', 'Rating': '46', 'Home': '51'}, 'Ukraine': {'Team': 'Ukraine', 'Confederation': 'UEFA', 'Ranking': '28', 'Rating': '66', 'Home': '20'}, 'UAE': {'Team': 'UAE', 'Confederation': 'AFC', 'Ranking': '68', 'Rating': '52', 'Home': '27'}, 'USA': {'Team': 'USA', 'Confederation': 'CONCACAF', 'Ranking': '14', 'Rating': '69', 'Home': '26'}, 'USVirginIslands': {'Team': 'USVirginIslands', 'Confederation': 'CONCACAF', 'Ranking': '206', 'Rating': '3', 'Home': '4'}, 'Uruguay': {'Team': 'Uruguay', 'Confederation': 'CONMEBOL', 'Ranking': '16', 'Rating': '77', 'Home': '41'}, 'Uzbekistan': {'Team': 'Uzbekistan', 'Confederation': 'AFC', 'Ranking': '50', 'Rating': '58', 'Home': '37'}, 'Vanuatu': {'Team': 'Vanuatu', 'Confederation': 'OFC', 'Ranking': '159', 'Rating': '9', 'Home': '12'}, 'Venezuela': {'Team': 'Venezuela', 'Confederation': 'CONMEBOL', 'Ranking': '48', 'Rating': '57', 'Home': '59'}, 'Vietnam': {'Team': 'Vietnam', 'Confederation': 'AFC', 'Ranking': '106', 'Rating': '37', 'Home': '31'}, 'Wales': {'Team': 'Wales', 'Confederation': 'UEFA', 'Ranking': '32', 'Rating': '60', 'Home': '23'}, 'Yemen': {'Team': 'Yemen', 'Confederation': 'AFC', 'Ranking': '148', 'Rating': '24', 'Home': '15'}, 'Zambia': {'Team': 'Zambia', 'Confederation': 'CAF', 'Ranking': '90', 'Rating': '45', 'Home': '51'}, 'Zimbabwe': {'Team': 'Zimbabwe', 'Confederation': 'CAF', 'Ranking': '128', 'Rating': '43', 'Home': '49'}}
+##### CONCACAF Qualifying #####
+- 1st Round CONCACAF Qualifying -
+1st Leg: Turks&CaicosIslands vs Anguilla
+draw
+2nd Leg: Anguilla vs Turks&CaicosIslands
+Turks&CaicosIslands wins
+Turks&CaicosIslands advances
+1st Leg: USVirginIslands vs BritishVirginIslands
+USVirginIslands wins
+2nd Leg: BritishVirginIslands vs USVirginIslands
+draw
+USVirginIslands advances
+['Turks&CaicosIslands', 'USVirginIslands'] advance to the next round
+- 2nd Round CONCACAF Qualifying -
+Group A ['Panama', 'Trinidad&Tobago', 'Guyana', 'Grenada', 'Turks&CaicosIslands']
+Group B ['Jamaica', 'Curacao', 'Suriname', 'Belize', 'USVirginIslands']
+Group C ['Haiti', 'StKitts&Nevis', 'DominicanRepublic', 'StLucia', 'CaymanIslands']
+Group D ['Honduras', 'Guatemala', 'Cuba', 'Montserrat', 'Dominica']
+Group E ['CostaRica', 'Antigua&Barbuda', 'PuertoRico', 'StVincent&Grenadines', 'Aruba']
+Group F ['ElSalvador', 'Nicaragua', 'Barbados', 'Bermuda', 'Bahamas']
+Group A {'Panama': 10, 'Grenada': 7, 'Guyana': 5, 'Trinidad&Tobago': 3, 'Turks&CaicosIslands': 1}
+Group B {'Jamaica': 9, 'Suriname': 9, 'Curacao': 6, 'Belize': 6, 'USVirginIslands': 0}
+Group C {'Haiti': 12, 'StKitts&Nevis': 7, 'DominicanRepublic': 6, 'StLucia': 3, 'CaymanIslands': 1}
+Group D {'Honduras': 10, 'Guatemala': 6, 'Cuba': 5, 'Dominica': 5, 'Montserrat': 0}
+Group E {'CostaRica': 12, 'StVincent&Grenadines': 7, 'PuertoRico': 4, 'Antigua&Barbuda': 3, 'Aruba': 2}
+Group F {'Nicaragua': 9, 'ElSalvador': 7, 'Bermuda': 6, 'Barbados': 4, 'Bahamas': 1}
+['CostaRica', 'Haiti', 'Panama', 'Honduras', 'Nicaragua', 'Jamaica', 'Suriname', 'StVincent&Grenadines', 'ElSalvador', 'Grenada', 'StKitts&Nevis', 'Guatemala'] advance to the next round
+- 3rd Round CONCACAF Qualifying -
+Group A ['Jamaica', 'ElSalvador', 'Nicaragua', 'Suriname']
+Group B ['Panama', 'Haiti', 'StKitts&Nevis', 'StVincent&Grenadines']
+Group C ['CostaRica', 'Honduras', 'Guatemala', 'Grenada']
+Group A {'Jamaica': 16, 'Suriname': 10, 'Nicaragua': 4, 'ElSalvador': 3}
+Group B {'Panama': 18, 'Haiti': 8, 'StKitts&Nevis': 4, 'StVincent&Grenadines': 4}
+Group C {'CostaRica': 13, 'Honduras': 12, 'Guatemala': 5, 'Grenada': 3}
+['Panama', 'Jamaica', 'CostaRica'] qualify to the World Cup
+Honduras and Suriname advance to the intercontinental playoffs
+##### CONMEBOL Qualifying #####
+- CONMEBOL Qualifying -
+{'Argentina': 44, 'Brazil': 37, 'Uruguay': 32, 'Colombia': 30, 'Ecuador': 25, 'Paraguay': 22, 'Bolivia': 18, 'Peru': 17, 'Chile': 15, 'Venezuela': 10}
+['Argentina', 'Brazil', 'Uruguay', 'Colombia', 'Ecuador', 'Paraguay'] qualify to World Cup
+Bolivia advances to the inter-continental playoffs
+##### UEFA Qualifying #####
+- 1st Round UEFA Qualifying -
+Group A ['England', 'Hungary', 'Albania', 'Belarus', 'SanMarino']
+Group B ['Belgium', 'Norway', 'Bosnia', 'Andorra', 'Liechtenstein']
+Group C ['Sweden', 'Wales', 'Greece', 'Lithuania', 'Malta']
+Group D ['Croatia', 'Slovakia', 'Ireland', 'Kosovo', 'Gibraltar']
+Group E ['Denmark', 'Romania', 'Georgia', 'Azerbaijan', 'Moldova']
+Group F ['France', 'CzechRepublic', 'Slovenia', 'Armenia']
+Group G ['Italy', 'Poland', 'NorthMacedonia', 'Latvia']
+Group H ['Netherlands', 'Ukraine', 'Iceland', 'Luxembourg']
+Group I ['Spain', 'Austria', 'NorthernIreland', 'Estonia']
+Group J ['Switzerland', 'Turkey', 'Bulgaria', 'FaroeIslands']
+Group K ['Portugal', 'Serbia', 'Montenegro', 'Cyprus']
+Group L ['Germany', 'Scotland', 'Finland', 'Kazakhstan']
+Group A {'England': 22, 'Hungary': 15, 'Albania': 9, 'Belarus': 5, 'SanMarino': 4}
+Group B {'Belgium': 22, 'Norway': 16, 'Bosnia': 12, 'Liechtenstein': 9, 'Andorra': 0}
+Group C {'Sweden': 22, 'Wales': 16, 'Greece': 13, 'Lithuania': 5, 'Malta': 1}
+Group D {'Croatia': 21, 'Ireland': 18, 'Slovakia': 12, 'Kosovo': 6, 'Gibraltar': 3}
+Group E {'Romania': 20, 'Denmark': 17, 'Moldova': 7, 'Georgia': 6, 'Azerbaijan': 4}
+Group F {'France': 15, 'CzechRepublic': 13, 'Armenia': 4, 'Slovenia': 3}
+Group G {'Italy': 16, 'NorthMacedonia': 9, 'Poland': 8, 'Latvia': 1}
+Group H {'Netherlands': 16, 'Iceland': 11, 'Ukraine': 7, 'Luxembourg': 0}
+Group I {'Spain': 15, 'Austria': 10, 'NorthernIreland': 7, 'Estonia': 3}
+Group J {'Switzerland': 13, 'Turkey': 11, 'FaroeIslands': 10, 'Bulgaria': 0}
+Group K {'Portugal': 18, 'Serbia': 10, 'Cyprus': 5, 'Montenegro': 1}
+Group L {'Scotland': 15, 'Germany': 15, 'Finland': 4, 'Kazakhstan': 1}
+['Portugal', 'Italy', 'England', 'Netherlands', 'Sweden', 'Belgium', 'Spain', 'Scotland', 'France', 'Croatia', 'Romania', 'Switzerland'] qualify to World Cup
+['Germany', 'CzechRepublic', 'Ireland', 'Iceland', 'Turkey', 'Denmark', 'Austria', 'Serbia', 'Norway', 'Wales', 'Hungary', 'NorthMacedonia'] advance to playoffs
+ - UEFA Qualifying Playoffs -
+['Germany', 'CzechRepublic', 'Ireland', 'Iceland'] ['Denmark', 'Serbia', 'Austria', 'Wales'] ['Hungary', 'Turkey', 'Norway', 'NorthMacedonia']
+Serbia defeats Hungary 
+Serbia defeats Iceland 
+Serbia qualifies
+Turkey defeats Wales on penalties
+Germany defeats Turkey 
+Germany qualifies
+Denmark defeats NorthMacedonia 
+Denmark defeats CzechRepublic 
+Denmark qualifies
+Norway defeats Austria on penalties
+Ireland defeats Norway 
+Ireland qualifies
+['Serbia', 'Germany', 'Denmark', 'Ireland'] qualify to World Cup
+##### CAF Qualifying #####
+- 1st Round CAF Qualifying -
+Group A ['Cameroon', 'SouthAfrica', 'Mauritania', 'CentralAfricanRepublic', 'Comoros', 'SouthSudan']
+Group B ['Nigeria', 'BurkinaFaso', 'Angola', 'Gambia', 'Rwanda', 'SaoTome&Principe']
+Group C ['Egypt', 'DRCongo', 'Uganda', 'Togo', 'Burundi', 'Mauritius']
+Group D ['Mali', 'Ghana', 'Madagascar', 'Libya', 'Ethiopia', 'Djibouti']
+Group E ['Algeria', 'EquatorialGuinea', 'GuineaBissau', 'Zimbabwe', 'Sudan', 'Seychelles']
+Group F ['Morocco', 'Zambia', 'Namibia', 'Mozambique', 'Niger', 'Chad']
+Group G ['Senegal', 'Guinea', 'Kenya', 'Tanzania', 'Liberia', 'Eritrea']
+Group H ['IvoryCoast', 'CapeVerde', 'Congo', 'SierraLeone', 'Botswana', 'Lesotho']
+Group I ['Tunisia', 'Gabon', 'Benin', 'Malawi', 'Eswatini', 'Somalia']
+Group A {'Cameroon': 25, 'SouthAfrica': 22, 'Mauritania': 15, 'CentralAfricanRepublic': 15, 'Comoros': 10, 'SouthSudan': 1}
+Group B {'Nigeria': 23, 'BurkinaFaso': 21, 'Angola': 16, 'Rwanda': 12, 'Gambia': 11, 'SaoTome&Principe': 1}
+Group C {'DRCongo': 24, 'Egypt': 17, 'Uganda': 13, 'Togo': 11, 'Burundi': 10, 'Mauritius': 4}
+Group D {'Ghana': 24, 'Madagascar': 19, 'Mali': 17, 'Libya': 12, 'Ethiopia': 8, 'Djibouti': 4}
+Group E {'Algeria': 28, 'Zimbabwe': 17, 'Sudan': 14, 'GuineaBissau': 12, 'EquatorialGuinea': 9, 'Seychelles': 4}
+Group F {'Morocco': 19, 'Zambia': 17, 'Namibia': 16, 'Mozambique': 14, 'Niger': 10, 'Chad': 7}
+Group G {'Senegal': 23, 'Kenya': 16, 'Tanzania': 15, 'Liberia': 13, 'Guinea': 9, 'Eritrea': 8}
+Group H {'IvoryCoast': 30, 'SierraLeone': 15, 'CapeVerde': 14, 'Congo': 11, 'Botswana': 8, 'Lesotho': 7}
+Group I {'Benin': 23, 'Gabon': 15, 'Tunisia': 13, 'Malawi': 11, 'Eswatini': 10, 'Somalia': 7}
+['IvoryCoast', 'Algeria', 'Cameroon', 'DRCongo', 'Ghana', 'Nigeria', 'Benin', 'Senegal', 'Morocco'] qualify to World Cup
+2nd place rankings: {'SouthAfrica': 22, 'BurkinaFaso': 21, 'Madagascar': 19, 'Zimbabwe': 17, 'Egypt': 17, 'Zambia': 17, 'Kenya': 16, 'Gabon': 15, 'SierraLeone': 15}
+['SouthAfrica', 'BurkinaFaso', 'Madagascar', 'Zimbabwe'] advance to the 2nd Round
+ - 2nd Round CAF Qualifying -
+SouthAfrica vs Zimbabwe
+SouthAfrica wins
+BurkinaFaso vs Madagascar
+BurkinaFaso wins
+SouthAfrica vs BurkinaFaso
+SouthAfrica wins
+SouthAfrica advances to the inter-continental playoff
+##### AFC Qualifying #####
+1st Round AFC Qualifying
+1st Leg: Singapore vs TimorLeste
+TimorLeste wins
+2nd Leg: TimorLeste vs Singapore
+draw
+TimorLeste advances
+1st Leg: Maldives vs Laos
+draw
+2nd Leg: Laos vs Maldives
+draw
+Laos advances on penalties
+1st Leg: HongKong vs Bhutan
+HongKong wins
+2nd Leg: Bhutan vs HongKong
+HongKong wins
+HongKong advances
+1st Leg: ChineseTaipei vs Pakistan
+Pakistan wins
+2nd Leg: Pakistan vs ChineseTaipei
+draw
+Pakistan advances
+1st Leg: Yemen vs Macau
+Yemen wins
+2nd Leg: Macau vs Yemen
+Yemen wins
+Yemen advances
+1st Leg: Cambodia vs Guam
+Guam wins
+2nd Leg: Guam vs Cambodia
+Guam wins
+Guam advances
+1st Leg: Nepal vs Bangladesh
+Nepal wins
+2nd Leg: Bangladesh vs Nepal
+draw
+Nepal advances
+1st Leg: Indonesia vs SriLanka
+Indonesia wins
+2nd Leg: SriLanka vs Indonesia
+Indonesia wins
+Indonesia advances
+1st Leg: Afghanistan vs Brunei
+Afghanistan wins
+2nd Leg: Brunei vs Afghanistan
+draw
+Afghanistan advances
+1st Leg: Myanmar vs Mongolia
+draw
+2nd Leg: Mongolia vs Myanmar
+Myanmar wins
+Myanmar advances
+['TimorLeste', 'Laos', 'HongKong', 'Pakistan', 'Yemen', 'Guam', 'Nepal', 'Indonesia', 'Afghanistan', 'Myanmar'] advance to the next round
+2nd Round AFC Qualifying
+Group A ['SouthKorea', 'Palestine', 'HongKong', 'Pakistan']
+Group B ['Australia', 'Kyrgyzstan', 'Turkmenistan', 'Indonesia']
+Group C ['Qatar', 'Syria', 'Malaysia', 'Guam']
+Group D ['Oman', 'Uzbekistan', 'Kuwait', 'Myanmar']
+Group E ['Iran', 'China', 'Lebanon', 'Yemen']
+Group F ['UAE', 'Jordan', 'Thailand', 'Nepal']
+Group G ['SaudiArabia', 'Bahrain', 'Philippines', 'TimorLeste']
+Group H ['Iraq', 'Vietnam', 'Tajikistan', 'Afghanistan']
+Group I ['Japan', 'India', 'NorthKorea', 'Laos']
+Group A {'SouthKorea': 16, 'Palestine': 10, 'Pakistan': 6, 'HongKong': 3}
+Group B {'Indonesia': 14, 'Australia': 11, 'Kyrgyzstan': 5, 'Turkmenistan': 2}
+Group C {'Qatar': 16, 'Syria': 10, 'Malaysia': 7, 'Guam': 1}
+Group D {'Uzbekistan': 13, 'Kuwait': 9, 'Oman': 8, 'Myanmar': 4}
+Group E {'Iran': 13, 'China': 10, 'Lebanon': 7, 'Yemen': 4}
+Group F {'Jordan': 15, 'Thailand': 10, 'UAE': 10, 'Nepal': 0}
+Group G {'SaudiArabia': 15, 'Philippines': 12, 'Bahrain': 9, 'TimorLeste': 0}
+Group H {'Iraq': 18, 'Vietnam': 10, 'Tajikistan': 7, 'Afghanistan': 0}
+Group I {'Japan': 16, 'NorthKorea': 11, 'India': 7, 'Laos': 0}
+['Iraq', 'Japan', 'SouthKorea', 'Qatar', 'SaudiArabia', 'Jordan', 'Indonesia', 'Iran', 'Uzbekistan', 'Philippines', 'NorthKorea', 'Australia', 'Syria', 'China', 'Vietnam', 'Palestine', 'Thailand', 'Kuwait'] advance to the next round
+3rd Round AFC Qualifying
+Group A ['Japan', 'SaudiArabia', 'Iraq', 'Syria', 'NorthKorea', 'Indonesia']
+Group B ['Australia', 'Qatar', 'China', 'Jordan', 'Thailand', 'Philippines']
+Group C ['Iran', 'SouthKorea', 'Uzbekistan', 'Vietnam', 'Palestine', 'Kuwait']
+Group A {'Japan': 27, 'SaudiArabia': 20, 'Indonesia': 14, 'Iraq': 11, 'Syria': 9, 'NorthKorea': 4}
+Group B {'Qatar': 25, 'Australia': 24, 'China': 15, 'Jordan': 13, 'Philippines': 7, 'Thailand': 4}
+Group C {'Iran': 24, 'SouthKorea': 18, 'Uzbekistan': 15, 'Kuwait': 12, 'Palestine': 12, 'Vietnam': 9}
+['Japan', 'Qatar', 'Iran', 'Australia', 'SaudiArabia', 'SouthKorea'] qualify to World Cup
+['China', 'Uzbekistan', 'Indonesia', 'Jordan', 'Kuwait', 'Iraq'] advance to the next Round
+4th Round AFC Qualifying
+Group A ['Uzbekistan', 'China', 'Indonesia']
+Group B ['Iraq', 'Jordan', 'Kuwait']
+Group A {'Uzbekistan': 6, 'China': 3, 'Indonesia': 0}
+Group B {'Jordan': 3, 'Kuwait': 3, 'Iraq': 3}
+['Uzbekistan', 'Jordan'] qualify to World Cup
+['Kuwait', 'China'] advance to the next Round
+5th Round AFC Qualifying
+1st Leg: Kuwait vs China
+China wins
+2nd Leg: China vs Kuwait
+Kuwait wins
+Kuwait advances on penalties
+Kuwait advances to the inter-continental playoff
+##### OFC Qualifying #####
+- 1st Round OFC Qualifying -
+AmericanSamoa vs Tonga
+Tonga wins on penalties
+CookIslands vs Samoa
+Samoa wins on penalties
+Tonga vs Samoa
+Tonga wins
+Tonga advances to the next round
+- 2nd Round OFC Qualifying -
+Group A ['NewZealand', 'PapuaNewGuinea', 'Tahiti', 'Fiji']
+Group B ['SolomonIslands', 'NewCaledonia', 'Vanuatu', 'Tonga']
+NewZealand Fiji NewCaledonia Tonga advance to the next round
+- 3rd Round OFC Qualifying -
+NewZealand vs Tonga
+Tonga wins on penalties
+NewCaledonia vs Fiji
+NewCaledonia wins
+NewCaledonia qualifies,  Tonga advances to the inter-continental playoffs
+##### Inter-Continental Playoffs Qualifying #####
+Path 1: ['SouthAfrica', 'Suriname', 'Bolivia']
+Path 2: ['Honduras', 'Kuwait', 'Tonga']
+Match 1 Inter-continental Playoff
+Suriname vs Bolivia
+Bolivia wins on penalties
+Kuwait vs Tonga
+Kuwait wins
+Match 2 Inter-continental Playoff
+SouthAfrica vs Bolivia
+SouthAfrica wins
+Honduras vs Kuwait
+Kuwait wins
+['SouthAfrica', 'Kuwait'] qualify to the World Cup
+['Canada', 'USA', 'Mexico', 'Panama', 'Jamaica', 'CostaRica', 'Argentina', 'Brazil', 'Uruguay', 'Colombia', 'Ecuador', 'Paraguay', 'Portugal', 'Italy', 'England', 'Netherlands', 'Sweden', 'Belgium', 'Spain', 'Scotland', 'France', 'Croatia', 'Romania', 'Switzerland', 'Serbia', 'Germany', 'Denmark', 'Ireland', 'IvoryCoast', 'Algeria', 'Cameroon', 'DRCongo', 'Ghana', 'Nigeria', 'Benin', 'Senegal', 'Morocco', 'Japan', 'Qatar', 'Iran', 'Australia', 'SaudiArabia', 'SouthKorea', 'Uzbekistan', 'Jordan', 'NewCaledonia', 'SouthAfrica', 'Kuwait']

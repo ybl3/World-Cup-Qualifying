@@ -133,6 +133,9 @@ def fix_confed(team, ogconfed):
     data["AmericanSamoa"]["Confederation"] = "OFC"
     
 
+# To sim a specific confederation, uncomment that confederation (and choose between the 1 sim or k sims version)
+# To sim the full process, uncomment that and comment all others confederations
+# To change a team's confederation, uncomment the focuses portion, edit the focus to the team and confed to desired confederation
 def main():
     global data
     qualified_teams = []
@@ -146,8 +149,8 @@ def main():
             qualifications[row['Team']] = 0
     
 
-    # # Focuses
-    # focus = "USA"
+    # Focuses
+    # focus = "Japan"
     # confed = "UEFA"
     # confedmap = {"CONCACAF": "USVirginIslands",
     #              "CONMEBOL": "Bolivia",
@@ -157,28 +160,7 @@ def main():
     #              "OFC": "AmericanSamoa"}
     # change_confed(focus, confed, confedmap)
 
-    # team1 = "Kazakhstan"
-    # team2 = "Bulgaria"
-    # t1 = data[team1]['Rating']
-    # t2 = data[team2]['Rating']
-    # h1 = data[team1]['Home']
-    # h2 = data[team2]['Home']
-    # # t1 = 13
-    # # t2 = 95
-    # gg = {}
-    # gg["t1"] = 0
-    # gg["d"] = 0
-    # gg["t2"] = 0
-    # ggh = {}
-    # ggh["t1"] = 0
-    # ggh["d"] = 0
-    # ggh["t2"] = 0
-    # for i in range(1000):
-    #     gg[play_match(t1, t2, h1)] += 1
-    #     ggh[play_match(t2, t1, h2)] += 1
-    # print(gg)
-    # print(ggh)
-    # return 0
+   
     ### UEFA ###
     # uefa_teams, uefa_pots = uefa.get_uefa_teams()
     # print(len(uefa_teams))
@@ -238,7 +220,7 @@ def main():
     # verbose=True
     # # verbose=False
     # q, p = afc.afc_qualifying(afc_teams, verbose)
-    # k = 1000
+    # k = 100
     # q, p = afc.sim_afc_qualifying(afc_teams, k, False)
     # for team in q:
     #     print(team, q[team], p[team])
@@ -256,12 +238,17 @@ def main():
     #     print(team, icp[team])
 
 
-    # ccfteams = concacaf.get_concacaf_teams()
-    # cmbteams = conmebol.get_conmebol_teams()
-    # uefateams, uefapots = uefa.get_uefa_teams()
-    # cafteams, cafpots = caf.get_caf_teams()
-    # afcteams = afc.get_afc_teams()
-    # ofcteams = ofc.get_ofc_teams()
+    # Full World Cup Qualification
+
+    ccfteams = concacaf.get_concacaf_teams()
+    cmbteams = conmebol.get_conmebol_teams()
+    uefateams, uefapots = uefa.get_uefa_teams()
+    cafteams, cafpots = caf.get_caf_teams()
+    afcteams = afc.get_afc_teams()
+    ofcteams = ofc.get_ofc_teams()
+
+    qualified = world_cup_qualifying(ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, True)
+    print(qualified)
 
     # qualified = sim_world_cup_qualifying(1, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
     # print(qualified)
@@ -280,45 +267,46 @@ def main():
     #     print(q)
 
     
+    # Final Data Sim
 
-    final_data = [
-        ['Team', 'CONCACAF', 'CONMEBOL', 'UEFA', 'CAF', 'AFC', 'OFC', 'Total'],
-    ]
+    # final_data = [
+    #     ['Team', 'CONCACAF', 'CONMEBOL', 'UEFA', 'CAF', 'AFC', 'OFC', 'Total'],
+    # ]
 
 
-    confedmap = {"CONCACAF": "USVirginIslands",
-                 "CONMEBOL": "Bolivia",
-                 "UEFA": "SanMarino",
-                 "CAF": "Eritrea",
-                 "AFC": "Macau",
-                 "OFC": "AmericanSamoa"}
+    # confedmap = {"CONCACAF": "USVirginIslands",
+    #              "CONMEBOL": "Bolivia",
+    #              "UEFA": "SanMarino",
+    #              "CAF": "Eritrea",
+    #              "AFC": "Macau",
+    #              "OFC": "AmericanSamoa"}
     
-    confeds = list(confedmap.keys())
-    for team in data:
-        teamdata = [team]
-        total = 0
-        ogconfed = data[team]['Confederation']
-        for confed in confeds:
-            change_confed(team, confed, confedmap)
-            ccfteams = concacaf.get_concacaf_teams()
-            cmbteams = conmebol.get_conmebol_teams()
-            uefateams, uefapots = uefa.get_uefa_teams()
-            cafteams, cafpots = caf.get_caf_teams()
-            afcteams = afc.get_afc_teams()
-            ofcteams = ofc.get_ofc_teams()
-            quals = sim_world_cup_qualifying(100, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
-            teamdata.append(quals[team])
-            total += int(quals[team])
-            fix_confed(team, ogconfed)
-        teamdata.append(total)
-        final_data.append(teamdata)
-    print(data)
+    # confeds = list(confedmap.keys())
+    # for team in data:
+    #     teamdata = [team]
+    #     total = 0
+    #     ogconfed = data[team]['Confederation']
+    #     for confed in confeds:
+    #         change_confed(team, confed, confedmap)
+    #         ccfteams = concacaf.get_concacaf_teams()
+    #         cmbteams = conmebol.get_conmebol_teams()
+    #         uefateams, uefapots = uefa.get_uefa_teams()
+    #         cafteams, cafpots = caf.get_caf_teams()
+    #         afcteams = afc.get_afc_teams()
+    #         ofcteams = ofc.get_ofc_teams()
+    #         quals = sim_world_cup_qualifying(100, ccfteams, cmbteams, uefapots, cafpots, afcteams, ofcteams, False)
+    #         teamdata.append(quals[team])
+    #         total += int(quals[team])
+    #         fix_confed(team, ogconfed)
+    #     teamdata.append(total)
+    #     final_data.append(teamdata)
+    # print(data)
 
 
-    results_filename = "final_data_previous.csv"
-    with open(results_filename, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerows(final_data)
+    # results_filename = "final_data_previous.csv"
+    # with open(results_filename, 'w', newline='') as csvfile:
+    #     writer = csv.writer(csvfile)
+    #     writer.writerows(final_data)
 
 
 

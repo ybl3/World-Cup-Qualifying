@@ -252,7 +252,6 @@ def play_group_stage(groups, verbose=False):
         if verbose:
             print(f"Group {chr(g)}", group)
             g += 1
-            print(group)
         r = play_group(group, verbose) # simulate entire group (all matches)
         results.append(r) # add result of this group to final results
     return results
